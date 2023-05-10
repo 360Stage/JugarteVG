@@ -1,7 +1,7 @@
 function audioPlayer(){
     var currentSong = 0;
     $("#audioPlayer")[0].src = $("#playlist li a")[0];
-    $("#audioPlayer")[0].volume = 0.05;
+    $("#audioPlayer")[0].volume = 0.15;
     $("#audioPlayer")[0].play();
     $("#playlist li a").click(function(e){
        e.preventDefault(); 
